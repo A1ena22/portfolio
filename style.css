@@ -1,0 +1,97 @@
+/* CSS: цвет, фон, отступы */
+
+/* фон всей страницы */
+body {
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* главный блок-контейнер */
+div {
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+    width: 800px;
+    max-width: 100%;
+}
+
+/* заголовок h1 */
+h1 {
+    color: #1a4d8c;
+    margin-bottom: 10px;
+}
+
+/* подзаголовки h2 */
+h2 {
+    color: #2c6e9e;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: #e8f0fe;
+    padding: 8px 12px;
+}
+
+/* абзацы */
+p {
+    color: #333333;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* ссылка */
+a {
+    color: #1a4d8c;
+    background-color: #e8f0fe;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* ссылка при наведении */
+a:hover {
+    background-color: #1a4d8c;
+    color: white;
+}
+
+/* визуальный блок */
+.visual-block {
+    background-color: #e8f0fe;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.visual-block p {
+    margin-bottom: 5px;
+}
+
+/* Стили для интерактивной секции от JS */
+.js-section {
+    background-color: #f9f5e8;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.js-section h2 {
+    background-color: #e8dcc8;
+    display: inline-block;
+}
+
+button {
+    background-color: #1a4d8c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0e3570;
+}
